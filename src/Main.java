@@ -1,8 +1,6 @@
+import java.util.Scanner;
 public class Main {
-    import java.util.Scanner;
-
-    public class UserInput {
-        public static float getUserInput() {
+    public static float getUserInput() {
             Scanner scanner = new Scanner(System.in);
             float number = 0.0f;
             boolean isValidInput = false;
@@ -26,4 +24,3 @@ public class Main {
             System.out.println("Введенное число: " + userInput);
         }
     }
-}
